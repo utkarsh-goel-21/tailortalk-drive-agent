@@ -1,0 +1,27 @@
+# Environment
+.env
+*.env
+
+# Google Service Account — NEVER commit this
+service_account.json
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
